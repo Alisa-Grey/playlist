@@ -1,6 +1,32 @@
-:root {
-    --white: #fff;
-    --black: #010101;
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(./fonts/AnonymousPro-Regular.woff) format('woff'), 
+    url(./fonts/AnonymousPro-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    display: swap;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(./fonts/AnonymousPro-Bold.woff) format('woff'), 
+    url(./fonts/AnonymousPro-Bold.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    display: swap;
+}
+
+@font-face {
+    font-family: "Soyuz Grotesk";
+    src: url(./fonts/Soyuz\ Grotesk\ Bold.woff) format('woff'), 
+    url(./fonts/Soyuz\ Grotesk\ Bold.otf) format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    display: swap;
+}
+
+body {
+    margin: 0;
 }
 
 * {
@@ -183,6 +209,7 @@ body {
 .footer__logo:hover > svg > path {
     fill: #bb46fe
 }
+
 
 @media screen and (max-width: 900px) {
     .content {
